@@ -1,3 +1,4 @@
+import TestimonialCard from "@/components/TestimonialCard";
 import React from "react";
 
 export default function Testimonial() {
@@ -15,6 +16,25 @@ export default function Testimonial() {
         </p>
         <p>THE SERVERS?</p> 
         <img src="./above.png" alt="" srcset="" />
+      </div>
+      <div className="flex flex-wrap w-[90%] mx-auto items-center justify-center gap-x-5">
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      <TestimonialCard/>
+      </div>
+      <div className='flex items-center justify-center'>
+      <img src="./above.png" alt="" srcset="" />
+      </div>
+      <div className='flex items-center justify-center gap-x-3 py-4'>
+        <div className="w-4 h-4 rounded-full bg-[#0F1923] border border-[#01A6F5]"></div>
+        <div className="w-4 h-4 rounded-full bg-[#0F1923] border border-[#01A6F5]"></div>
+        <div className="w-4 h-4 rounded-full bg-[#0F1923] border border-[#01A6F5]"></div>
+        <div className="w-4 h-4 rounded-full bg-[#0F1923] border border-[#01A6F5]"></div>
       </div>
     </div>
   );
