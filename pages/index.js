@@ -11,7 +11,7 @@ import { Carousel } from "flowbite-react";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <div className="">
         <Carousel
           leftControl={<img src="./left.png" alt="" srcset="" />}
@@ -44,6 +44,6 @@ export default function Home() {
       
       <Footer />
       <></>
-    </>
+    </div>
   );
 }

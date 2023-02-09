@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="bg-[#0F1923] font-['Poppins]">
-      <div className="flex items-center flex-wrap justify-between w-[90%] mx-auto">
+      <div className="flex flex-col items-center flex-wrap justify-between py-3">
         <div>
           <img
             className="w-[90px] h-[90px] object-contain cursor-pointer"
@@ -12,7 +12,7 @@ export default function Footer() {
             srcset=""
           />
         </div>
-        <div className="flex text-[14px] whitespace-nowrap gap-x-10 text-white opacity-70">
+        <div className="flex overflow-x-hidden text-[9px] py-2 md:text-[14px] gap-x-3 text-white opacity-70">
           <div>
             <p className="font-['Poppins]">SERVICES</p>
             <p>RUST SERVER</p>
