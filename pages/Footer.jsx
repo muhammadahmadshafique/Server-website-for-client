@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="bg-[#0F1923] font-['Poppins]">
-      <div className="flex flex-col items-center flex-wrap justify-between py-3">
+      <div className="flex flex-col md:flex-row md:w-[85%] mx-auto items-center flex-wrap justify-between py-3">
         <div>
           <img
             className="w-[90px] h-[90px] object-contain cursor-pointer"
