@@ -11,7 +11,7 @@ import { Carousel } from "flowbite-react";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-[#0F1923]">
       <div className="">
         <Carousel
           leftControl={<img src="./left.png" alt="" srcset="" />}
