@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Testimonial() {
   return (
-    <div className="bg-[#1B2A3D]">
+    <div className="bg-[#1B2A3D] font-['Poppins]">
       <div className="flex flex-col text-white items-center justify-center gap-y-2 py-4 pb-[33px]">
         <p className="text-[44px] w-[55%] flex flex-col text-white items-center justify-center mx-auto">
           TESTIMONIALS
