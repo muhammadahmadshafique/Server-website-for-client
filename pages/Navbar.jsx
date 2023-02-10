@@ -16,7 +16,6 @@ export default function Navbar({ham}) {
             className="w-[90px] h-[90px] object-contain cursor-pointer"
             src="./logo.png"
             alt=""
-            srcset=""
           />
         </div>
         
@@ -31,7 +30,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain cursor-pointer"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {gameserver && (
               <div className="absolute bg-white rounded-lg mt-1 right-[-8px] top-[18px]">
@@ -42,7 +41,7 @@ export default function Navbar({ham}) {
                       className="object-contain hidden group-hover:flex pr-1 h-6  "
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       RUST SERVER HOSTING
@@ -54,7 +53,7 @@ export default function Navbar({ham}) {
                       className="object-contain hidden group-hover:flex pr-1 h-6 w-32"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center whitespace-nowrap	 justify-center">
                       MINECRAFT SERVER HOSTING
@@ -66,7 +65,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       DISCORD BOT HOSTING
@@ -89,7 +88,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
           </div>
           <div className="flex gap-x-2 relative">
@@ -101,7 +100,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {company && (
               <div className="absolute bg-white z-50 rounded-lg mt-1 right-[-8px] top-[18px]">
@@ -112,7 +111,7 @@ export default function Navbar({ham}) {
                       className="object-contain  pr-1 h-6  hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 1
@@ -124,7 +123,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 2
@@ -136,7 +135,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 3
@@ -155,7 +154,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {login && (
               <div className="absolute bg-white rounded-lg mt-1 right-[-4px] top-[30px] whitespace-nowrap">
@@ -166,7 +165,7 @@ export default function Navbar({ham}) {
                       className="object-contain  pr-1 h-6  hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 1
@@ -178,7 +177,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 2
@@ -190,7 +189,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 3
@@ -208,7 +207,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain  z-10"
               src="./basket.png"
               alt=""
-              srcset=""
+              
             />{" "}
           </button>
           </div>
@@ -225,7 +224,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain cursor-pointer"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {gameserver && (
               <div className="absolute bg-white whitespace-nowrap	 rounded-lg mt-1 right-[-8px] top-[18px]">
@@ -236,7 +235,7 @@ export default function Navbar({ham}) {
                       className="object-contain hidden group-hover:flex pr-1 h-6 "
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center group-hover:flex justify-center pl-3">
                       RUST SERVER HOSTING
@@ -248,7 +247,7 @@ export default function Navbar({ham}) {
                       className="object-contain hidden group-hover:flex pr-1 h-6 w-32"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center whitespace-nowrap	justify-center">
                       MINECRAFT SERVER HOSTING
@@ -260,7 +259,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       DISCORD BOT HOSTING
@@ -283,7 +282,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
           </div>
           <div className="flex gap-x-2 relative">
@@ -295,7 +294,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {company && (
               <div className="absolute bg-white whitespace-nowrap	 rounded-lg mt-1 right-[-8px] top-[18px]">
@@ -306,7 +305,7 @@ export default function Navbar({ham}) {
                       className="object-contain  pr-1 h-6  hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 1
@@ -318,7 +317,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 2
@@ -330,7 +329,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 3
@@ -349,7 +348,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./arrow.png"
               alt=""
-              srcset=""
+              
             />
             {login && (
               <div className="absolute bg-white whitespace-nowrap	 rounded-lg mt-1 right-[-4px] top-[30px] whitespace-nowrap">
@@ -360,7 +359,7 @@ export default function Navbar({ham}) {
                       className="object-contain  pr-1 h-6  hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 1
@@ -372,7 +371,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 2
@@ -384,7 +383,7 @@ export default function Navbar({ham}) {
                       className="object-contain inline pr-1 h-6 hidden group-hover:flex"
                       src="./line.png"
                       alt=""
-                      srcset=""
+                      
                     />{" "}
                     <p className="flex items-center justify-center pl-3">
                       OPTION 3
@@ -402,7 +401,7 @@ export default function Navbar({ham}) {
               className="text-black object-contain"
               src="./basket.png"
               alt=""
-              srcset=""
+              
             />{" "}
           </button>
         </div>
