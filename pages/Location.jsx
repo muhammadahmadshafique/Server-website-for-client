@@ -12,7 +12,7 @@ export default function Location() {
         </p>
       </div>
       <div className="flex justify-center items-center mt-10">
-        <img src="./pins.png" alt="Why error" />
+        <img src="./Pins.png" alt="map" srcset="" />
       </div>
     </div>
   );
